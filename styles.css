@@ -1,0 +1,76 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+/* Personal Information */
+.personal {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.personal h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.title {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Divider Styling */
+.divider {
+    border: none;
+    border-top: 2px solid #333;
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Section Headings */
+h2 {
+    color: green;
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* List styling */
+ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Link Styling */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Section Spacing */
+.skills, .education, .experience, .internet {
+    margin-bottom: 20px;
+}
